@@ -1,0 +1,96 @@
+.petrona {
+  font-family: "petrona", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+*{
+    font-family: "petrona", cursive;
+    letter-spacing: 0.4px;
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 75px;
+    color: rgba(255, 255, 255, 0.493);
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.493);
+}
+
+header {
+    width: 100%;
+    background-image: url(sea-background.jpeg);
+    height: 600px;
+    padding: 10px 10px 50px 10px;
+    text-align: center;
+}
+
+body {
+background-color: rgb(14, 14, 14);
+}
+
+.section-one {
+    height: 400px;
+}
+.section-one a {
+margin: 0px 20px 0px 10px;
+padding: 5px;
+font-size: 20px;
+color: rgba(255, 255, 255);
+opacity: 0.8;
+line-height: 40px;
+background-color: rgba(0, 0, 0, 0.514);
+}
+
+.section-one h1 {
+    line-height: 65px;
+    color: white;
+}
+
+.arrow {
+    text-decoration: none;
+    text-align: center;
+    font-size: 75px;
+    padding: 10px 30px 10px 30px;
+    border: solid 0.1px rgba(255, 255, 255, 0.514);
+    box-shadow: 0px 0px 5px;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.465);
+    background-color: rgb(19, 19, 35);
+}
+
+.arrow:hover {
+opacity: 0.5;
+}
+
+.arrow:active {
+    opacity:1 ;
+}
+
+#projects {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.projects button {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.projects button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
